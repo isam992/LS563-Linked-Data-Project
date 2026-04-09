@@ -4,8 +4,13 @@ This data set includes a list of 50 cars introduced to the industry in the 1900s
 
 
 Sample Triples: 
+
 Model -> was manufactured by -> Manufacture 
+
 Model -> was introduced in -> Year
+
 Example:
+
 The Alpina B10 Bi-Turbo was manufactured by Alpina
+
 The Dodge Omni was introduced in 1987 
