@@ -1,0 +1,789 @@
+@prefix :       <http://1900sCars.com/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix gn:     <http://www.geonames.org/ontology#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd:     <http://www.wikidata.org/entity/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q172741  rdf:type  schema:Organization .
+
+wd:Q704981  rdf:type  schema:Organization .
+
+wd:Q2656132  rdf:type               schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q23317;
+        schema:modelDate            "1980"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.9"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.1"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q35349  rdf:type  schema:Organization .
+
+wd:Q1673780  rdf:type               schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q704981;
+        schema:modelDate            "1984"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q203550  rdf:type  schema:Organization .
+
+wd:Q859314  rdf:type                schema:Car;
+        schema:category             wd:Q5333841;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q36033;
+        schema:modelDate            "1989"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q3239206  rdf:type               schema:Car;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q23317;
+        schema:modelDate            "1999"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q29570  rdf:type  schema:Organization .
+
+wd:Q113364637  rdf:type             schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "United Kingdom";
+        schema:manufacturer         wd:Q1637323;
+        schema:modelDate            "1992"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "4.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.9"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q638156  rdf:type  schema:Organization .
+
+wd:Q9584  rdf:type  schema:Organization .
+
+wd:Q4993151  rdf:type               schema:Car;
+        schema:category             wd:Q1357619;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q44294;
+        schema:modelDate            "1985"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.9"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.4"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q486966  rdf:type                schema:Car;
+        schema:category             wd:Q2666883;
+        schema:countryOfAssembly    "South Korea";
+        schema:manufacturer         wd:Q35349;
+        schema:modelDate            "1995"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.7"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q2303949  rdf:type               schema:Car;
+        schema:category             wd:Q215601;
+        schema:countryOfAssembly    "Philippines" , "Indonesia";
+        schema:manufacturer         wd:Q53268;
+        schema:modelDate            "1979"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.2"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q1088751  rdf:type               schema:Car;
+        schema:category             wd:Q4010528 , wd:Q304895;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q109018499;
+        schema:modelDate            "1940"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "4.9"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q27460  rdf:type  schema:Organization .
+
+wd:Q204327  rdf:type  schema:Organization .
+
+wd:Q35935  rdf:type  schema:Organization .
+
+wd:Q580813  rdf:type                schema:Car;
+        schema:category             wd:Q946808;
+        schema:countryOfAssembly    "Netherlands";
+        schema:manufacturer         wd:Q215293;
+        schema:modelDate            "1986"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.7"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q7088755  rdf:type               schema:Car;
+        schema:category             wd:Q815423;
+        schema:countryOfAssembly    "Romania";
+        schema:manufacturer         wd:Q40963;
+        schema:modelDate            "1981"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.1"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q533618  rdf:type                schema:Car;
+        schema:category             wd:Q4010528;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q204327;
+        schema:modelDate            "1982"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "4.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1425160  rdf:type               schema:Car;
+        schema:category             wd:Q946808;
+        schema:countryOfAssembly    "Egypt" , "Ukraine" , "Kazakhstan" , "Russia";
+        schema:manufacturer         wd:Q2309;
+        schema:modelDate            "1980"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.2"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q28616  rdf:type  schema:Organization .
+
+wd:Q40993  rdf:type  schema:Organization .
+
+wd:Q56282685  rdf:type              schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q27564;
+        schema:modelDate            "1991"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q719974  rdf:type                schema:Car;
+        schema:category             wd:Q2704381;
+        schema:countryOfAssembly    "United States" , "Mexico" , "Japan";
+        schema:manufacturer         wd:Q20165;
+        schema:modelDate            "1982"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.5"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q917166  rdf:type                schema:Car;
+        schema:category             wd:Q5333841;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q246;
+        schema:modelDate            "1988"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.9"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q1436747  rdf:type               schema:Car;
+        schema:category             wd:Q10863152;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q44294;
+        schema:modelDate            "1984"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.9"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q27586  rdf:type  schema:Organization .
+
+wd:Q1446836  rdf:type               schema:Car;
+        schema:category             wd:Q360369;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q20165;
+        schema:modelDate            "1989"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q281944  rdf:type                schema:Car;
+        schema:category             wd:Q4010528;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q40990;
+        schema:modelDate            "1973"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "7.5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6.6"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q2309  rdf:type  schema:Organization .
+
+wd:Q215293  rdf:type  schema:Organization .
+
+wd:Q100300546  rdf:type             schema:Car;
+        schema:category             wd:Q5333841;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q9584;
+        schema:modelDate            "1978"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1637323  rdf:type  schema:Organization .
+
+wd:Q494724  rdf:type                schema:Car;
+        schema:category             wd:Q2704381;
+        schema:countryOfAssembly    "South Korea";
+        schema:manufacturer         wd:Q55931;
+        schema:modelDate            "1975"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.4"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.2"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q136197  rdf:type                schema:Car;
+        schema:category             wd:Q5581707;
+        schema:countryOfAssembly    "Russia";
+        schema:manufacturer         wd:Q638156;
+        schema:modelDate            "1985"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "7.7"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 .
+
+wd:Q5620012  rdf:type               schema:Car;
+        schema:category             wd:Q504154;
+        schema:countryOfAssembly    "Brazil";
+        schema:manufacturer         wd:Q1555170;
+        schema:modelDate            "1988"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "0.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q226062  rdf:type                schema:Car;
+        schema:category             wd:Q4010528 , wd:Q304895;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q29570;
+        schema:modelDate            "1958"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "4.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.9"
+                                    ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q946541  rdf:type                schema:Car;
+        schema:category             wd:Q304895;
+        schema:countryOfAssembly    "Australia";
+        schema:manufacturer         wd:Q1624372;
+        schema:modelDate            "1996"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 .
+
+wd:Q20165  rdf:type  schema:Organization .
+
+wd:Q1002267  rdf:type  schema:Organization .
+
+wd:Q40990  rdf:type  schema:Organization .
+
+wd:Q44294  rdf:type  schema:Organization .
+
+wd:Q613488  rdf:type                schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q35962;
+        schema:modelDate            "1988"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.6"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q1922450  rdf:type               schema:Car;
+        schema:category             wd:Q1357619;
+        schema:countryOfAssembly    "Belgium" , "Russia";
+        schema:manufacturer         wd:Q28616;
+        schema:modelDate            "1956"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.4"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.5"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1528403  rdf:type               schema:Car;
+        schema:category             wd:Q744620;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q35962;
+        schema:modelDate            "1990"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.2"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q55931  rdf:type  schema:Organization .
+
+wd:Q3559613  rdf:type               schema:Car;
+        schema:category             wd:Q4010528;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q174049;
+        schema:modelDate            "1988"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.3"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q2104548  rdf:type               schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q40993;
+        schema:modelDate            "1964"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.3"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.3"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q787386 .
+
+wd:Q1156864  rdf:type               schema:Car;
+        schema:countryOfAssembly    "Romania";
+        schema:manufacturer         wd:Q27460;
+        schema:modelDate            "1969"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.3"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q863812  rdf:type                schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q35886;
+        schema:modelDate            "1974"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.9"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q36033  rdf:type  schema:Organization .
+
+wd:Q1531455  rdf:type               schema:Car;
+        schema:category             wd:Q946808;
+        schema:countryOfAssembly    "Australia";
+        schema:manufacturer         wd:Q29281;
+        schema:modelDate            "1989"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.4"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q100618598  rdf:type             schema:Car;
+        schema:category             wd:Q2666883;
+        schema:countryOfAssembly    "China";
+        schema:manufacturer         wd:Q3273406;
+        schema:modelDate            "1995"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q1257624  rdf:type               schema:Car;
+        schema:category             wd:Q1940287 , wd:Q4010528;
+        schema:countryOfAssembly    "Brasil";
+        schema:manufacturer         wd:Q44294;
+        schema:modelDate            "1981"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q1542087  rdf:type               schema:Car;
+        schema:category             wd:Q225600 , wd:Q6383556 , wd:Q2666883;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q36033;
+        schema:modelDate            "1966"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "0.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q482514  rdf:type                schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "United Kingdom";
+        schema:manufacturer         wd:Q35935;
+        schema:modelDate            "1962"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.5"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q23317  rdf:type  schema:Organization .
+
+wd:Q27564  rdf:type  schema:Organization .
+
+wd:Q1128789  rdf:type               schema:Car;
+        schema:category             wd:Q504507;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q44294;
+        schema:modelDate            "1956"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 .
+
+wd:Q109018499  rdf:type  schema:Organization .
+
+wd:Q40963  rdf:type  schema:Organization .
+
+wd:Q494481  rdf:type                schema:Car;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 .
+
+wd:Q1436993  rdf:type               schema:Car;
+        schema:category             wd:Q4010528 , wd:Q946808;
+        schema:countryOfAssembly    "Japan" , "New Zealand" , "Australia";
+        schema:manufacturer         wd:Q44294;
+        schema:modelDate            "1982"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q1186119  rdf:type               schema:Car;
+        schema:category             wd:Q1357619;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q36033;
+        schema:modelDate            "1964"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type  schema:EngineSpecification ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1624372  rdf:type  schema:Organization .
+
+wd:Q174049  rdf:type  schema:Organization .
+
+wd:Q3273406  rdf:type  schema:Organization .
+
+wd:Q246  rdf:type  schema:Organization .
+
+wd:Q53268  rdf:type  schema:Organization .
+
+wd:Q1267427  rdf:type               schema:Car;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q53268;
+        schema:modelDate            "1990"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "4"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 .
+
+wd:Q35886  rdf:type  schema:Organization .
+
+wd:Q1356220  rdf:type               schema:Car;
+        schema:category             wd:Q2666883;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q35886;
+        schema:modelDate            "1986"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "7.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "5.2"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q186187  rdf:type                schema:Car;
+        schema:category             wd:Q1357619;
+        schema:countryOfAssembly    "Germany";
+        schema:manufacturer         wd:Q203550;
+        schema:modelDate            "1989"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "3.5"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q542757  rdf:type                schema:Car;
+        schema:category             wd:Q274586;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q172741;
+        schema:modelDate            "1985"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.7"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 , wd:Q843592 .
+
+wd:Q2927696  rdf:type               schema:Car;
+        schema:category             wd:Q119131338;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q1002267;
+        schema:modelDate            "1993"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "6"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
+
+wd:Q482458  rdf:type                schema:Car;
+        schema:category             wd:Q4010528;
+        schema:countryOfAssembly    "South Korea";
+        schema:manufacturer         wd:Q55931;
+        schema:modelDate            "1985"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1355779  rdf:type               schema:Car;
+        schema:category             wd:Q2704381;
+        schema:countryOfAssembly    "Japan";
+        schema:manufacturer         wd:Q53268;
+        schema:modelDate            "1973"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.1"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1234324  rdf:type               schema:Car;
+        schema:category             wd:Q2704381;
+        schema:countryOfAssembly    "United States";
+        schema:manufacturer         wd:Q109018499;
+        schema:modelDate            "1978"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.6"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.2"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.7"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q29281  rdf:type  schema:Organization .
+
+wd:Q35962  rdf:type  schema:Organization .
+
+wd:Q1324018  rdf:type               schema:Car;
+        schema:category             wd:Q946808;
+        schema:countryOfAssembly    "New Zealand";
+        schema:manufacturer         wd:Q20165;
+        schema:modelDate            "1955"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.5"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "1.8"
+                                    ];
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2"
+                                    ];
+        schema:vehicleTransmission  wd:Q843592 , wd:Q1208529 .
+
+wd:Q1555170  rdf:type  schema:Organization .
+
+wd:Q268935  rdf:type                schema:Car;
+        schema:category             wd:Q744620;
+        schema:countryOfAssembly    "Italy";
+        schema:manufacturer         wd:Q27586;
+        schema:modelDate            "1980"^^xsd:gYear;
+        schema:vehicleEngine        [ rdf:type                   schema:EngineSpecification;
+                                      schema:engineDisplacement  "2.9"
+                                    ];
+        schema:vehicleTransmission  wd:Q1208529 .
